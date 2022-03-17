@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8372" started-at="2022-01-10T06:02:34Z" finished-at="2022-01-10T06:02:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8372" started-at="2022-01-10T06:02:34Z" finished-at="2022-01-10T06:02:42Z">
+      <class name="org.testngclasses.GmailDataProvider">
+        <test-method status="PASS" signature="accessWebPage()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="accessWebPage" is-config="true" duration-ms="2579" started-at="2022-01-10T11:32:34Z" finished-at="2022-01-10T11:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessWebPage -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T11:32:37Z" finished-at="2022-01-10T11:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="3852" started-at="2022-01-10T11:32:37Z" data-provider="Authentication" finished-at="2022-01-10T11:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anitha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[532876383]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T11:32:41Z" finished-at="2022-01-10T11:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T11:32:41Z" finished-at="2022-01-10T11:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="1216" started-at="2022-01-10T11:32:41Z" data-provider="Authentication" finished-at="2022-01-10T11:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hfg863876]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-10T11:32:42Z" finished-at="2022-01-10T11:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="close" is-config="true" duration-ms="704" started-at="2022-01-10T11:32:42Z" finished-at="2022-01-10T11:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testngclasses.GmailDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
