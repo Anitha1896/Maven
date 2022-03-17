@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8372" started-at="2022-01-10T06:02:34Z" finished-at="2022-01-10T06:02:42Z">
+  <suite name="Default suite" duration-ms="25790" started-at="2022-03-17T12:59:14Z" finished-at="2022-03-17T12:59:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8372" started-at="2022-01-10T06:02:34Z" finished-at="2022-01-10T06:02:42Z">
+    <test name="Default test" duration-ms="25790" started-at="2022-03-17T12:59:14Z" finished-at="2022-03-17T12:59:40Z">
       <class name="org.testngclasses.GmailDataProvider">
-        <test-method status="PASS" signature="accessWebPage()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="accessWebPage" is-config="true" duration-ms="2579" started-at="2022-01-10T11:32:34Z" finished-at="2022-01-10T11:32:37Z">
+        <test-method status="PASS" signature="accessWebPage()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="accessWebPage" is-config="true" duration-ms="19384" started-at="2022-03-17T18:29:14Z" finished-at="2022-03-17T18:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessWebPage -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T11:32:37Z" finished-at="2022-01-10T11:32:37Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="1" started-at="2022-03-17T18:29:34Z" finished-at="2022-03-17T18:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="3852" started-at="2022-01-10T11:32:37Z" data-provider="Authentication" finished-at="2022-01-10T11:32:41Z">
+        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="3696" started-at="2022-03-17T18:29:34Z" data-provider="Authentication" finished-at="2022-03-17T18:29:37Z">
           <params>
             <param index="0">
               <value>
@@ -31,15 +31,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T11:32:41Z" finished-at="2022-01-10T11:32:41Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="1" started-at="2022-03-17T18:29:37Z" finished-at="2022-03-17T18:29:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T11:32:41Z" finished-at="2022-01-10T11:32:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="1216" started-at="2022-01-10T11:32:41Z" data-provider="Authentication" finished-at="2022-01-10T11:32:42Z">
+        <test-method status="PASS" signature="test(java.lang.Object, java.lang.Object)[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="test" duration-ms="1919" started-at="2022-03-17T18:29:37Z" data-provider="Authentication" finished-at="2022-03-17T18:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -55,14 +51,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-10T11:32:42Z" finished-at="2022-01-10T11:32:42Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="startTime" is-config="true" duration-ms="0" started-at="2022-03-17T18:29:37Z" finished-at="2022-03-17T18:29:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="close()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="close" is-config="true" duration-ms="704" started-at="2022-01-10T11:32:42Z" finished-at="2022-01-10T11:32:42Z">
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="close" is-config="true" duration-ms="770" started-at="2022-03-17T18:29:39Z" finished-at="2022-03-17T18:29:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.testngclasses.GmailDataProvider@4cf777e8]" name="endTime" is-config="true" duration-ms="0" started-at="2022-03-17T18:29:39Z" finished-at="2022-03-17T18:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
       </class> <!-- org.testngclasses.GmailDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
